@@ -121,5 +121,5 @@ if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
 fi
 
 # neofetch
-pfetch
+pfetch && date && printf "\n"
 
